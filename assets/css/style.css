@@ -1,0 +1,76 @@
+/* Estilo CSS */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+/* Header */
+header {
+    font-size: 2em;
+    height: 300px;
+    padding: 3em;
+    background-image: url("../../assets/images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+}
+header h1 {
+    color: white;
+    font-weight: normal;
+}
+header p {
+    color: white;
+    font-weight: normal;
+}
+
+/* Products */
+.products {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    padding: 1px;
+}
+.products h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin: 0px 0px;
+}
+.products p {
+    color: rgb(255, 255, 255);
+    text-align: center;  
+    font-weight: normal;
+    margin:0px;
+}
+.table td p {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.table td img {
+    border: 5px solid cornflowerblue;
+    width: 700px;;
+    margin: 2em 2em 3em 10em ;
+    border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: sienna;
+    height: 80px;
+    color:rgb(255, 255, 255);
+}
+.footer h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center ;
+    padding-top: 1em;
+    cursor: pointer;
+}
